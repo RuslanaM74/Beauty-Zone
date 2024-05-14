@@ -1,0 +1,161 @@
+
+@font-face {
+    font-display: swap;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+    
+@font-face {
+    font-display: swap;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');   
+}
+
+@font-face {
+    font-display: swap;
+    
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');   
+}
+
+@font-face {
+    font-display: swap;
+
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');   
+}
+
+:root {
+--color-brand: #2B7FFF;
+--color-primary-dark:#011C44;
+--color-primary-light:#FFFFFF;
+--color-second: #A18268;
+}
+
+/* Base */
+body {
+    color: var(--color-primary-dark);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.17;
+}
+ul {
+ list-style-type: none;   
+}
+
+/* button */
+.button.button {
+color: var(--color-primary-light);
+font-weight: 600;
+font-size: 18px;
+line-height: 1.17;
+background-color: var(--color-brand);
+border: 2px solid var(--color-brand);
+border-radius: 8px;
+cursor: pointer;
+}
+.button.button:hover {
+ color: var(--color-primary-dark);
+ background-color: var(--color-primary-light);
+}
+.button-cell {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* title*/
+.hero-title {
+    color: var(--color-brand);
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+font-size: 140px;
+line-height: 0.8;
+    text-transform: capitalize;   
+}
+
+.section-title {
+  color: var(--color-primary-dark);
+font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.17;
+}
+.section-title .accent {
+    color: var(--color-brand);
+}
+
+.normal-text {
+    font-size: 22px;
+    line-height: 1.7;
+}
+.normal-text .brend-uppercase {
+font-weight: 600;
+    font-size: 22px;
+    line-height: 1.7;
+}
+.normal-text .brend-uppercase { 
+text-transform: uppercase;
+}
+.choice {
+line-height: 1.3;
+}
+.procedures-list {
+font-size: 22px;
+    line-height: 1.18;
+    }
+
+/*link*/
+.link {
+color: var(--color-primary-dark);
+text-decoration: none;
+font-size: 18px;
+  }
+.link:hover {
+    color: var(--color-brand);
+    font-weight: 700;
+}
+.logo-link {
+font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 0.95;
+    
+    
+}
+.logo-link:hover {
+    cursor:col-resize ;
+    
+}
+
+/*footer*/
+.footer {
+    background-color: var(--color-primary-dark);
+    color: var(--color-primary-light);
+   
+}
+.link-footer {
+    color: var(--color-primary-light);
+   font-size: 16px;
+   line-height: 1.17;
+    text-decoration: none;
+    font-style: normal;
+}
+.link-footer:hover {
+    color: var(--color-brand);
+}
+.address-copyright {
+    color: var(--color-second);
+    font-style: normal;
+}
